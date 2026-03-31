@@ -1,0 +1,712 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:67:9-75:20
+	android:grantUriPermissions
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:71:13-47
+	android:authorities
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:69:13-64
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:68:13-62
+manifest
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:2:1-97:12
+MERGED from [androidx.databinding:viewbinding:8.13.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/1dbdeb7ca72fb8e849395098f9e6dccc/transformed/viewbinding-8.13.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/6f16fb751636240b8f97babeaae12b19/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/4097d20aa8fd9064c9635f14b03b906b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1262d92f6a6354efe467239a1732d848/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1701ed4d4d38f31e5925349b33f43ac3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/64fdf6d16d7bb193a674cac9f81312f2/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/8b8718da426ef2e3e4dcfa264083c5a2/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/dc68f98fd10834ef88e51644c653dcf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/3573f89638c4436c2bdab7415dada14e/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/b4b2e6681cf368d05e6a37b3a73b9839/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ee40d26ee7e6b30edd8750a6544ab34a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdc90c348f263b0c20051ca82194fbae/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/08032f32204918ec6703199a40c13117/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdf1fc23b07ebeff5d494e56b4a00079/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/a6a4ff3693de7249c5d129f26e2bfd48/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/960e7d56368d377a3b0249b1470399a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fb26ec1733791ec2755ef3c5fa86abf2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/37d3d43839c97f243a6756043eac6496/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ef9ff7b6ecc9601d220250795defe295/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d06e5130150e443b4fd320a1f0b07ae9/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/3f5505ab267649942515d8cc1cfa5b4d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fdaece736bbe5f8cacb5f7d3836b3da0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7da94e0d63118a06b38e85f91aceb484/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7116babf3b85eda8f35167099758c2c4/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d708809a66f9373dd3ff680c57d5b5c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1aadb45bd9b8bdd41586dfe1fedce7cb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/4198584e9e9ac1658a546ea212193fea/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/92bf587d99e9b49bd00a951cbc37694b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/126c39f3debc0733829084404b11ed09/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/8666f5b04513a59671edaee18e74de1d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/11c26d27c2b8e45bee18d909fcca2e9f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/1207b90db1cfad0570e24358569906e3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5cf3b6b242ea61432526cc1df51ad83f/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5b9f82347c4a4cd23228fb13ae74f78b/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f03c765f62f79ded1884c8fb568afe54/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/63ca14326d1fb072202deff1f1910bc2/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/91b47e8ca6860e415f9280704066af43/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/23aa09b7864b3654a4f64ef7e778748c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7b94b968e031684fc25ed25c496c22d9/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/47df6b77a840bdef3e7e429241828ba7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/475ca2f864aecf624b25254cdbea8787/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9e1a2afde1f01336074bc2df8aa793bc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f0190475fc7fa0cf3c98e1ae09f28d03/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9987cfde8fe00245a8c4495eb64499a3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fbe64f6f94c54d0d652df88fa204cb1f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/9cb2e47592e2b8deef8ecffa7fcaecc8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/72859098deddc585bff2ad5dcf84d511/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/99833f87ea483a1d06f23f0d2099e716/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/65e8c1cb42a5a89b1a402057f0284419/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/84acb3c19c23d1f3f4de5d4fd2b06aa4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/5c8838a055c3ff14e89e7d4d2b7214b8/transformed/tensorflow-lite-support-0.4.4/AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f7736b3a5279bf082f1125d6013771e0/transformed/tensorflow-lite-2.14.0/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/acfdfb00e303e28cf5a8eb40fa7d680e/transformed/tensorflow-lite-support-api-0.4.4/AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/725ead0d704c8fbd84dc639362f4957f/transformed/tensorflow-lite-api-2.14.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/meghanaepari/.gradle/caches/8.13/transforms/a3f6228df3e21b696c75d2bd635e6e89/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:5:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:6:5-89
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:6:22-86
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.BODY_SENSORS
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:10:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:11:5-12:38
+	android:maxSdkVersion
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:13:5-14:38
+	android:maxSdkVersion
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:14:9-35
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:13:22-77
+application
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:17:5-95:19
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:17:5-95:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/6f16fb751636240b8f97babeaae12b19/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/6f16fb751636240b8f97babeaae12b19/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/4097d20aa8fd9064c9635f14b03b906b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/4097d20aa8fd9064c9635f14b03b906b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/9cb2e47592e2b8deef8ecffa7fcaecc8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/9cb2e47592e2b8deef8ecffa7fcaecc8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f7736b3a5279bf082f1125d6013771e0/transformed/tensorflow-lite-2.14.0/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f7736b3a5279bf082f1125d6013771e0/transformed/tensorflow-lite-2.14.0/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/725ead0d704c8fbd84dc639362f4957f/transformed/tensorflow-lite-api-2.14.0/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/725ead0d704c8fbd84dc639362f4957f/transformed/tensorflow-lite-api-2.14.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/meghanaepari/.gradle/caches/8.13/transforms/a3f6228df3e21b696c75d2bd635e6e89/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/meghanaepari/.gradle/caches/8.13/transforms/a3f6228df3e21b696c75d2bd635e6e89/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:23:9-46
+	android:usesCleartextTraffic
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:24:9-45
+activity#com.mindtype.mobile.ui.OnboardingActivity
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:windowSoftInputMode
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:30:13-55
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:28:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.mindtype.mobile.ui.MainActivity
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:38:9-41:58
+	android:windowSoftInputMode
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:41:13-55
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:39:13-44
+activity#com.mindtype.mobile.ui.SettingsActivity
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:45:13-48
+service#com.mindtype.mobile.ime.MindTypeIMEService
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:49:9-64:19
+	android:label
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:52:13-45
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:53:13-70
+	android:foregroundServiceType
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:50:13-51
+intent-filter#action:name:android.view.InputMethod
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:55:13-57:29
+action#android.view.InputMethod
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:56:17-67
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:56:25-64
+meta-data#android.view.im
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:58:13-60:56
+	android:resource
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:60:17-53
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:59:17-47
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:61:13-63:53
+	android:value
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:63:17-50
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:62:17-76
+receiver#com.mindtype.mobile.workers.BootReceiver
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:78:9-84:20
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:79:13-49
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:81:13-83:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:82:25-76
+receiver#com.mindtype.mobile.workers.StressResponseReceiver
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:87:9-93:20
+	android:exported
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:88:13-59
+intent-filter#action:name:com.mindtype.mobile.STRESS_RESPONSE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:90:13-92:29
+action#com.mindtype.mobile.STRESS_RESPONSE
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:91:17-78
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:91:25-75
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:72:13-74:63
+	android:resource
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:74:17-60
+	android:name
+		ADDED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml:73:17-67
+uses-sdk
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/1dbdeb7ca72fb8e849395098f9e6dccc/transformed/viewbinding-8.13.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/1dbdeb7ca72fb8e849395098f9e6dccc/transformed/viewbinding-8.13.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/6f16fb751636240b8f97babeaae12b19/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/6f16fb751636240b8f97babeaae12b19/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/4097d20aa8fd9064c9635f14b03b906b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/4097d20aa8fd9064c9635f14b03b906b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1262d92f6a6354efe467239a1732d848/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1262d92f6a6354efe467239a1732d848/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1701ed4d4d38f31e5925349b33f43ac3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1701ed4d4d38f31e5925349b33f43ac3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/64fdf6d16d7bb193a674cac9f81312f2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/64fdf6d16d7bb193a674cac9f81312f2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/8b8718da426ef2e3e4dcfa264083c5a2/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/8b8718da426ef2e3e4dcfa264083c5a2/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/dc68f98fd10834ef88e51644c653dcf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/dc68f98fd10834ef88e51644c653dcf3/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/3573f89638c4436c2bdab7415dada14e/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/3573f89638c4436c2bdab7415dada14e/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/b4b2e6681cf368d05e6a37b3a73b9839/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/meghanaepari/.gradle/caches/8.13/transforms/b4b2e6681cf368d05e6a37b3a73b9839/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ee40d26ee7e6b30edd8750a6544ab34a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ee40d26ee7e6b30edd8750a6544ab34a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdc90c348f263b0c20051ca82194fbae/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdc90c348f263b0c20051ca82194fbae/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/08032f32204918ec6703199a40c13117/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/08032f32204918ec6703199a40c13117/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdf1fc23b07ebeff5d494e56b4a00079/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bdf1fc23b07ebeff5d494e56b4a00079/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/a6a4ff3693de7249c5d129f26e2bfd48/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/a6a4ff3693de7249c5d129f26e2bfd48/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/960e7d56368d377a3b0249b1470399a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/960e7d56368d377a3b0249b1470399a9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fb26ec1733791ec2755ef3c5fa86abf2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fb26ec1733791ec2755ef3c5fa86abf2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/37d3d43839c97f243a6756043eac6496/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/37d3d43839c97f243a6756043eac6496/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ef9ff7b6ecc9601d220250795defe295/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/ef9ff7b6ecc9601d220250795defe295/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d06e5130150e443b4fd320a1f0b07ae9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d06e5130150e443b4fd320a1f0b07ae9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/3f5505ab267649942515d8cc1cfa5b4d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/3f5505ab267649942515d8cc1cfa5b4d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fdaece736bbe5f8cacb5f7d3836b3da0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fdaece736bbe5f8cacb5f7d3836b3da0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7da94e0d63118a06b38e85f91aceb484/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7da94e0d63118a06b38e85f91aceb484/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7116babf3b85eda8f35167099758c2c4/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7116babf3b85eda8f35167099758c2c4/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d708809a66f9373dd3ff680c57d5b5c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/d708809a66f9373dd3ff680c57d5b5c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1aadb45bd9b8bdd41586dfe1fedce7cb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/1aadb45bd9b8bdd41586dfe1fedce7cb/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/4198584e9e9ac1658a546ea212193fea/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/4198584e9e9ac1658a546ea212193fea/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/92bf587d99e9b49bd00a951cbc37694b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/92bf587d99e9b49bd00a951cbc37694b/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/126c39f3debc0733829084404b11ed09/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/126c39f3debc0733829084404b11ed09/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/8666f5b04513a59671edaee18e74de1d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/8666f5b04513a59671edaee18e74de1d/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/11c26d27c2b8e45bee18d909fcca2e9f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/11c26d27c2b8e45bee18d909fcca2e9f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/1207b90db1cfad0570e24358569906e3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/1207b90db1cfad0570e24358569906e3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5cf3b6b242ea61432526cc1df51ad83f/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5cf3b6b242ea61432526cc1df51ad83f/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5b9f82347c4a4cd23228fb13ae74f78b/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/5b9f82347c4a4cd23228fb13ae74f78b/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f03c765f62f79ded1884c8fb568afe54/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f03c765f62f79ded1884c8fb568afe54/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/63ca14326d1fb072202deff1f1910bc2/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/63ca14326d1fb072202deff1f1910bc2/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/91b47e8ca6860e415f9280704066af43/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/91b47e8ca6860e415f9280704066af43/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/23aa09b7864b3654a4f64ef7e778748c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/23aa09b7864b3654a4f64ef7e778748c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7b94b968e031684fc25ed25c496c22d9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7b94b968e031684fc25ed25c496c22d9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/47df6b77a840bdef3e7e429241828ba7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/47df6b77a840bdef3e7e429241828ba7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/475ca2f864aecf624b25254cdbea8787/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/475ca2f864aecf624b25254cdbea8787/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9e1a2afde1f01336074bc2df8aa793bc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9e1a2afde1f01336074bc2df8aa793bc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f0190475fc7fa0cf3c98e1ae09f28d03/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f0190475fc7fa0cf3c98e1ae09f28d03/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9987cfde8fe00245a8c4495eb64499a3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/9987cfde8fe00245a8c4495eb64499a3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fbe64f6f94c54d0d652df88fa204cb1f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/fbe64f6f94c54d0d652df88fa204cb1f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/9cb2e47592e2b8deef8ecffa7fcaecc8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/9cb2e47592e2b8deef8ecffa7fcaecc8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/72859098deddc585bff2ad5dcf84d511/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/72859098deddc585bff2ad5dcf84d511/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/99833f87ea483a1d06f23f0d2099e716/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/99833f87ea483a1d06f23f0d2099e716/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/65e8c1cb42a5a89b1a402057f0284419/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/65e8c1cb42a5a89b1a402057f0284419/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/84acb3c19c23d1f3f4de5d4fd2b06aa4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/84acb3c19c23d1f3f4de5d4fd2b06aa4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/5c8838a055c3ff14e89e7d4d2b7214b8/transformed/tensorflow-lite-support-0.4.4/AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/5c8838a055c3ff14e89e7d4d2b7214b8/transformed/tensorflow-lite-support-0.4.4/AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f7736b3a5279bf082f1125d6013771e0/transformed/tensorflow-lite-2.14.0/AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/f7736b3a5279bf082f1125d6013771e0/transformed/tensorflow-lite-2.14.0/AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/acfdfb00e303e28cf5a8eb40fa7d680e/transformed/tensorflow-lite-support-api-0.4.4/AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.4] /Users/meghanaepari/.gradle/caches/8.13/transforms/acfdfb00e303e28cf5a8eb40fa7d680e/transformed/tensorflow-lite-support-api-0.4.4/AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/725ead0d704c8fbd84dc639362f4957f/transformed/tensorflow-lite-api-2.14.0/AndroidManifest.xml:6:5-7:38
+MERGED from [org.tensorflow:tensorflow-lite-api:2.14.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/725ead0d704c8fbd84dc639362f4957f/transformed/tensorflow-lite-api-2.14.0/AndroidManifest.xml:6:5-7:38
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/meghanaepari/.gradle/caches/8.13/transforms/a3f6228df3e21b696c75d2bd635e6e89/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/meghanaepari/.gradle/caches/8.13/transforms/a3f6228df3e21b696c75d2bd635e6e89/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/meghanaepari/dev/mindtype_mobileapp/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/96597c2ac8f267027bccee05b47e2cce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/daccc4f58cdf560467395b9e888889f1/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:22-76
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/7f769da05f9a5f6fba82e7aa83723802/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.mindtype.mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.mindtype.mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/bb8276727144926654648e33693ef2e7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/376fe4131a22fa31acf198ad60bc6c86/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/meghanaepari/.gradle/caches/8.13/transforms/2878b81a418584156277495b4361b4d4/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/meghanaepari/.gradle/caches/8.13/transforms/4b97320fb3e664c3759dfdfe83da202a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

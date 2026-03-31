@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/layout_activity_onboarding.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/layout_activity_main.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/xml_mindtype_ime.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/xml/mindtype_ime.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/xml_keys_layout.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/xml/keys_layout.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/layout_keyboard_view.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/layout/keyboard_view.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/mipmap_ic_launcher_round.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/mipmap/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/xml_file_provider_paths.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/drawable_card_glass_bg.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/drawable/card_glass_bg.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/layout_activity_settings.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/xml_keys_symbols.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/xml/keys_symbols.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/xml_keys_numbers.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/xml/keys_numbers.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/mipmap_ic_launcher.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mindtype.mobile.app-release-45:/drawable_ic_notification.xml.flat",
+        "source": "com.mindtype.mobile.app-main-46:/drawable/ic_notification.xml"
+    }
+]

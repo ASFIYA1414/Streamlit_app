@@ -1,6 +1,43 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+/**
+ * MindType Mobile - Top-level Build Configuration
+ * 
+ * Project: Mental State Detection Using Keystroke Dynamics
+ * Description: Android application for passive monitoring of mental stress through 
+ *              keystroke dynamics analysis using on-device ML (TensorFlow Lite).
+ *              This is the mobile extension of the MindType desktop application.
+ * 
+ * Version: 1.0
+ * Date: March 2026
+ * Institution: VIT-AP University, Andhra Pradesh, India
+ * Department: Networking and Security
+ * 
+ * Authors:
+ * - E Meghana (22BCE8217)
+ * - Anushree Das (22BCE9076)
+ * - Shaik Madina Asfiya (22BCE9699)
+ * 
+ * Supervisor: Dr. Udit Narayana Kar
+ * 
+ * BUILD & DEPLOYMENT INSTRUCTIONS:
+ * 1. Go to Build -> Generate Signed Bundle / APK...
+ * 2. Select APK -> click Next.
+ * 3. Create a new keystore (first time only):
+ *    - Click 'Create new...'
+ *    - Choose save location (e.g., ~/mindtype_keystore.jks)
+ *    - Set passwords, alias (e.g., mindtype), and org info.
+ * 4. Select 'release' build variant -> click Finish.
+ * 5. The generated APK will be at: app/release/app-release.apk
+ * 
+ * This file defines the Gradle plugins and versions used across all modules.
+ */
+
 plugins {
+    // Android Application plugin for building the main app
     id 'com.android.application' version '8.13.2' apply false
+    
+    // Kotlin Android plugin for Kotlin language support
     id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    
+    // Kotlin Symbol Processing (KSP) for Room and other code generation tools
     id 'com.google.devtools.ksp' version '1.9.22-1.0.17' apply false
 }

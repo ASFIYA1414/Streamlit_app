@@ -77,16 +77,16 @@ class MainActivity : AppCompatActivity() {
         val currentLevel = MindTypeIMEService.currentStressLevel
 
         withContext(Dispatchers.Main) {
-            binding.tvUserId.text = "Participant: $userId"
-            binding.tvKeystrokeCount.text = "Keystrokes Today: $keystrokeCount"
-            binding.tvSessionDuration.text = "Session Duration: ${sessionDurationMin}m"
-            binding.tvAvgStress.text = "Avg Stress: ${"%.1f".format(avgStress)}"
+            binding.tvUserId.text = "PARTICIPANT: $userId"
+            binding.tvKeystrokeCount.text = "$keystrokeCount"
+            binding.tvSessionDuration.text = "${sessionDurationMin}m"
+            binding.tvAvgStress.text = "%.1f".format(avgStress)
 
             // Current stress dot
             val (color, label) = when (currentLevel) {
                 StressLevel.CALM -> Pair(getColor(R.color.stress_calm), "🟢 Calm")
-                StressLevel.MILD_STRESS -> Pair(getColor(R.color.stress_mild), "🟡 Mild Stress")
-                StressLevel.HIGH_STRESS -> Pair(getColor(R.color.stress_high), "🔴 High Stress")
+                StressLevel.MILD_STRESS -> Pair(getColor(R.color.stress_mild), "🟡 Mild")
+                StressLevel.HIGH_STRESS -> Pair(getColor(R.color.stress_high), "🔴 Alert")
             }
             binding.tvCurrentStress.text = label
             binding.tvCurrentStress.setTextColor(color)
@@ -102,18 +102,31 @@ class MainActivity : AppCompatActivity() {
                     }
                     Entry(i.toFloat(), y)
                 }
-                val dataSet = LineDataSet(entries, "Stress Level").apply {
-                    setColor(getColor(R.color.colorPrimary))
-                    setCircleColor(getColor(R.color.colorPrimary))
-                    lineWidth = 2f
-                    circleRadius = 3f
+                val dataSet = LineDataSet(entries, "Behavioral Trend").apply {
+                    setColor(getColor(R.color.primary_accent))
+                    setCircleColor(getColor(R.color.primary_accent))
+                    lineWidth = 3f
+                    circleRadius = 4f
+                    setDrawCircles(true)
+                    setDrawCircleHole(false)
+                    setDrawFilled(true)
+                    fillColor = getColor(R.color.primary_accent)
+                    fillAlpha = 20
                     setDrawValues(false)
                     mode = LineDataSet.Mode.CUBIC_BEZIER
                 }
-                binding.stressChart.data = LineData(dataSet)
-                binding.stressChart.description.isEnabled = false
-                binding.stressChart.legend.isEnabled = true
-                binding.stressChart.invalidate()
+                
+                binding.stressChart.apply {
+                    data = LineData(dataSet)
+                    description.isEnabled = false
+                    legend.isEnabled = false
+                    xAxis.isEnabled = false
+                    axisLeft.isEnabled = false
+                    axisRight.isEnabled = false
+                    setDrawGridBackground(false)
+                    setTouchEnabled(false)
+                    invalidate()
+                }
             }
         }
     }

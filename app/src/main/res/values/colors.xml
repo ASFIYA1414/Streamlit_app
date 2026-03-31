@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App brand -->
-    <color name="colorPrimary">#5C6BC0</color>
-    <color name="colorPrimaryDark">#3949AB</color>
-    <color name="colorAccent">#7986CB</color>
+    <!-- Premium Dark Theme Palette -->
+    <color name="primary_deep">#0A0A0B</color>
+    <color name="primary_surface">#161618</color>
+    <color name="primary_accent">#6366F1</color> <!-- Modern Indigo -->
+    <color name="primary_accent_variant">#4F46E5</color>
+    
+    <color name="text_high_emphasis">#F8FAFC</color>
+    <color name="text_medium_emphasis">#94A3B8</color>
+    <color name="text_disabled">#475569</color>
 
-    <!-- Stress level indicators -->
-    <color name="stress_calm">#4CAF50</color>     <!-- Green -->
-    <color name="stress_mild">#FFC107</color>     <!-- Amber/Yellow -->
-    <color name="stress_high">#F44336</color>     <!-- Red -->
-
-    <!-- UI -->
-    <color name="background">#F5F5F5</color>
-    <color name="textPrimary">#212121</color>
-    <color name="textSecondary">#757575</color>
-    <color name="divider">#E0E0E0</color>
-    <color name="keyboard_background">#CFD8DC</color>
+    <!-- Glowing Stress Indicators -->
+    <color name="stress_calm">#10B981</color>     <!-- Emerald -->
+    <color name="stress_mild">#F59E0B</color>     <!-- Amber -->
+    <color name="stress_high">#EF4444</color>     <!-- Rose -->
+    
+    <!-- Misc -->
+    <color name="glass_white">#1AFFFFFF</color>
+    <color name="divider_dark">#2D2D30</color>
+    
+    <!-- Fallbacks for existing styles -->
+    <color name="colorPrimary">@color/primary_accent</color>
+    <color name="colorPrimaryDark">@color/primary_deep</color>
+    <color name="colorAccent">@color/primary_accent</color>
+    <color name="background">@color/primary_deep</color>
+    <color name="textPrimary">@color/text_high_emphasis</color>
+    <color name="textSecondary">@color/text_medium_emphasis</color>
     <color name="white">#FFFFFF</color>
+
+    <!-- UI Components legacy -->
+    <color name="divider">@color/divider_dark</color>
+    <color name="keyboard_background">@color/primary_surface</color>
 </resources>

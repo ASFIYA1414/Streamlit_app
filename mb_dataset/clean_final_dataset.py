@@ -6,9 +6,9 @@ df = pd.read_csv("final_mobile_dataset.csv")
 print("Before cleaning:", df.shape)
 
 # -------------------------------
-# REMOVE DUPLICATES (OK)
+# REMOVE DUPLICATES (COMMENTED OUT)
 # -------------------------------
-df = df.drop_duplicates()
+# df = df.drop_duplicates()  # <--- Removes over half your dataset by mistake!
 
 # -------------------------------
 # FIX INF VALUES

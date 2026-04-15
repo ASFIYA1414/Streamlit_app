@@ -14,7 +14,7 @@ df = pd.read_csv("clean_mobile_dataset.csv")
 print("Dataset shape (before fix):", df.shape)
 
 # -------------------------------
-# 🔥 FIX LABEL INCONSISTENCY (CRITICAL)
+# FIX LABEL INCONSISTENCY (CRITICAL)
 # -------------------------------
 df["mapped_class"] = df["mapped_class"].astype(str).str.lower().str.strip()
 
@@ -88,10 +88,10 @@ pipeline = Pipeline([
 # HYPERPARAMETER TUNING
 # -------------------------------
 param_grid = {
-    "rf__n_estimators": [100, 200],
-    "rf__max_depth": [10, 15],
-    "rf__min_samples_split": [2, 5],
-    "rf__min_samples_leaf": [1, 2]
+    "rf__n_estimators": [50, 100],
+    "rf__max_depth": [3, 5, 7],
+    "rf__min_samples_split": [5, 10],
+    "rf__min_samples_leaf": [2, 4]
 }
 
 skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)

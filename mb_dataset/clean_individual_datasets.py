@@ -18,7 +18,7 @@ for file in files:
 
     # Remove obvious invalid values (example)
     if "typing_speed" in df.columns:
-        df = df[df["typing_speed"] >= 0]
+        df = df[(df["typing_speed"] >= 0) | (df["typing_speed"].isna())]
 
     # Save cleaned version (overwrite or new file)
     filename = os.path.basename(file)

@@ -19,7 +19,7 @@ print("Dataset shape (before fix):", df.shape)
 df["mapped_class"] = df["mapped_class"].astype(str).str.lower().str.strip()
 
 df["mapped_class"] = df["mapped_class"].replace({
-    "calm": "Calm",
+     "calm": "Calm",
     "high_stress": "High_Stress",
     "mild_stress": "Mild_Stress"
 })

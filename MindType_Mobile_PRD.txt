@@ -13,9 +13,9 @@ E Meghana (22BCE8217)  |  Anushree Das (22BCE9076)  |  Shaik Madina Asfiya (22BC
 1. Document Control
 Field	Details
 Document Title	MindType Mobile — Product Requirements Document
-Version	1.0 (Initial Release)
+Version	1.1
 Status	Draft — Under Supervisor Review
-Date	March 25, 2026
+Date	April 17, 2026
 Authors	E Meghana, Anushree Das, Shaik Madina Asfiya
 Supervisor	Dr. Udit Narayana Kar
 Department	Networking and Security, VIT-AP University
@@ -26,6 +26,7 @@ Privacy Classification	Privacy-Preserving — No PII or text content stored
 1.1 Revision History
 Version	Date	Changes	Author
 1.0	March 25, 2026	Initial PRD created	E Meghana, A Das, SM Asfiya
+1.1	April 17, 2026	Updated target accuracy to 85-90% to prevent overfitting	MindType Team
 
 
 
@@ -392,7 +393,7 @@ Metric	Target	Minimum Acceptable	Priority
 Number of participants	25–30 participants	20 participants	HIGH
 Data per participant	3 days × 4 hrs/day	2 days × 3 hrs/day	HIGH
 Stress labels collected	> 50 labels per participant	> 30 labels	HIGH
-Best model F1-score	> 75% weighted F1	> 65% weighted F1	HIGH
+Best model F1-score	85-90% (Avoid overfitting)	> 75% weighted F1	HIGH
 Self-report correlation	Pearson r > 0.6	Pearson r > 0.4	MED
 Keystroke logging latency	< 5ms average	< 15ms average	HIGH
 Zero text content stored	100% — zero tolerance	100% — zero tolerance	HIGH

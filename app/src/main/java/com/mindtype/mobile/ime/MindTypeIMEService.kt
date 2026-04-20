@@ -80,15 +80,7 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
 
         Log.d(TAG, "onCreate: IME service started, userId=$userId")
         createNotificationChannel()
-        if (Build.VERSION.SDK_INT >= 34) {
-            startForeground(
-                NOTIFICATION_ID,
-                buildNotification(StressLevel.CALM),
-                android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
-            )
-        } else {
-            startForeground(NOTIFICATION_ID, buildNotification(StressLevel.CALM))
-        }
+        updateNotification(StressLevel.CALM)
     }
 
     override fun onCreateInputView(): View {
@@ -243,9 +235,8 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
 
     private fun buildNotification(level: StressLevel): Notification {
         val (emoji, label) = when (level) {
-            StressLevel.CALM       -> Pair("🟢", "Calm")
-            StressLevel.MILD_STRESS -> Pair("🟡", "Mild Stress")
-            StressLevel.HIGH_STRESS -> Pair("🔴", "High Stress")
+            StressLevel.CALM -> Pair("🟢", "Calm")
+            StressLevel.STRESSED -> Pair("🔴", "Stressed")
         }
         val intent = Intent(this, MainActivity::class.java)
         val pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE)

@@ -15,7 +15,7 @@ import com.mindtype.mobile.data.entity.*
         FeatureWindowEntity::class,
         StressLabelEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {

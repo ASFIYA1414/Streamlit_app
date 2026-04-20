@@ -20,8 +20,8 @@ df["mapped_class"] = df["mapped_class"].astype(str).str.lower().str.strip()
 
 df["mapped_class"] = df["mapped_class"].replace({
      "calm": "Calm",
-    "high_stress": "High_Stress",
-    "mild_stress": "Mild_Stress"
+    "high_stress": "Stressed",
+    "mild_stress": "Stressed"
 })
 
 # -------------------------------
@@ -124,3 +124,7 @@ f1 = cross_val_score(grid.best_estimator_, X, y, cv=skf, scoring="f1_weighted")
 print("\nFINAL RESULTS:")
 print("Accuracy:", np.mean(accuracy))
 print("F1-score:", np.mean(f1))
+
+import joblib
+joblib.dump(grid.best_estimator_, 'stress_model_pipeline.pkl')
+print("\nPipeline saved to stress_model_pipeline.pkl")

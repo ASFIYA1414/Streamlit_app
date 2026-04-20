@@ -30,7 +30,7 @@ class StressLabelWorker(
         const val CHANNEL_ID = "stress_prompt_channel"
 
         fun schedule(context: Context) {
-            val request = PeriodicWorkRequestBuilder<StressLabelWorker>(10, TimeUnit.MINUTES)
+            val request = PeriodicWorkRequestBuilder<StressLabelWorker>(15, TimeUnit.MINUTES)
                 .setConstraints(Constraints.Builder().build())
                 .build()
             WorkManager.getInstance(context).enqueueUniquePeriodicWork(

@@ -68,8 +68,7 @@ class MainActivity : AppCompatActivity() {
         val avgStress = windows.mapNotNull { w ->
             when (w.predictedClass) {
                 "CALM" -> 1f
-                "MILD_STRESS" -> 2f
-                "HIGH_STRESS" -> 3f
+                "STRESSED" -> 2f
                 else -> null
             }
         }.average().let { if (it.isNaN()) 0.0 else it }
@@ -85,8 +84,7 @@ class MainActivity : AppCompatActivity() {
             // Current stress dot
             val (color, label) = when (currentLevel) {
                 StressLevel.CALM -> Pair(getColor(R.color.stress_calm), "🟢 Calm")
-                StressLevel.MILD_STRESS -> Pair(getColor(R.color.stress_mild), "🟡 Mild")
-                StressLevel.HIGH_STRESS -> Pair(getColor(R.color.stress_high), "🔴 Alert")
+                StressLevel.STRESSED -> Pair(getColor(R.color.stress_high), "🔴 Stressed")
             }
             binding.tvCurrentStress.text = label
             binding.tvCurrentStress.setTextColor(color)
@@ -96,8 +94,7 @@ class MainActivity : AppCompatActivity() {
                 val entries = windows.mapIndexed { i, w ->
                     val y = when (w.predictedClass) {
                         "CALM" -> 1f
-                        "MILD_STRESS" -> 2f
-                        "HIGH_STRESS" -> 3f
+                        "STRESSED" -> 2f
                         else -> 0f
                     }
                     Entry(i.toFloat(), y)

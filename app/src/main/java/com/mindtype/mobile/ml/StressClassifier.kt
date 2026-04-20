@@ -1,85 +1,93 @@
 package com.mindtype.mobile.ml
 
 import android.content.Context
-import org.tensorflow.lite.Interpreter
-import java.io.FileInputStream
-import java.nio.MappedByteBuffer
-import java.nio.channels.FileChannel
+import ai.onnxruntime.OnnxTensor
+import ai.onnxruntime.OrtEnvironment
+import ai.onnxruntime.OrtSession
+import java.nio.FloatBuffer
+import java.util.Collections
 
-enum class StressLevel { CALM, MILD_STRESS, HIGH_STRESS }
+enum class StressLevel { CALM, STRESSED }
 
 /**
- * Wraps the TensorFlow Lite model for on-device stress classification.
- * Input:  FloatArray[9]  — the 9 behavioral features (in order from FeatureExtractor)
- * Output: FloatArray[3]  — softmax probabilities [Calm, Mild_Stress, High_Stress]
+ * Wraps the ONNX model for on-device stress classification.
+ * Input: FloatArray[9]
  */
 class StressClassifier(private val context: Context) {
 
-    private var interpreter: Interpreter? = null
+    private var env: OrtEnvironment? = null
+    private var session: OrtSession? = null
+
+    // Scaler constants from Python
+    private val means = floatArrayOf(
+        73.059f, 31.829f, 519.833f, 826.544f, 136.418f, 0.1575f, 0.5409f, 0.5f, 1981828624.775f
+    )
+    private val scales = floatArrayOf(
+        19.292f, 56.612f, 929.783f, 1509.306f, 82.410f, 0.1821f, 0.7036f, 1.0f, 5323971053.094f
+    )
 
     init {
         try {
-            val model = loadModelFile()
-            interpreter = Interpreter(model, Interpreter.Options().apply { setNumThreads(2) })
+            env = OrtEnvironment.getEnvironment()
+            val assetManager = context.assets
+            val modelBytes = assetManager.open("stress_model.onnx").readBytes()
+            session = env?.createSession(modelBytes, OrtSession.SessionOptions())
         } catch (e: Exception) {
-            // Model placeholder may not be a real TFLite model yet — fail gracefully
-            interpreter = null
+            e.printStackTrace()
+            session = null
+            env = null
         }
     }
 
     fun classify(features: FloatArray): StressLevel {
-        interpreter?.let { interp ->
+        val currentEnv = env
+        val currentSession = session
+
+        if (currentEnv != null && currentSession != null) {
             try {
-                val input = arrayOf(features)
-                val output = Array(1) { FloatArray(3) }
-                interp.run(input, output)
-                val probs = output[0]
-                return when (probs.indices.maxByOrNull { probs[it] } ?: 0) {
-                    0 -> StressLevel.CALM
-                    1 -> StressLevel.MILD_STRESS
-                    else -> StressLevel.HIGH_STRESS
+                // 1. Standard Scale the input
+                val scaledFeatures = FloatArray(9)
+                for (i in 0..8) {
+                    scaledFeatures[i] = (features[i] - means[i]) / scales[i]
                 }
+
+                // 2. Run ONNX Inference
+                val inputName = currentSession.inputNames.iterator().next()
+                val shape = longArrayOf(1, 9)
+                val tensor = OnnxTensor.createTensor(currentEnv, FloatBuffer.wrap(scaledFeatures), shape)
+
+                val result = currentSession.run(Collections.singletonMap(inputName, tensor))
+                
+                // 3. Extract output
+                // ONNX XGBoost output usually contains labels (index 0) and probabilities (index 1)
+                // Output 0 is usually Int64 array of predicted classes
+                val outputLabels = result[0].value as LongArray
+                val prediction = outputLabels[0].toInt()
+
+                tensor.close()
+                result.close()
+
+                return if (prediction == 1) StressLevel.STRESSED else StressLevel.CALM
             } catch (e: Exception) {
-                // Ignore failure and fall through to heuristic algorithm
+                e.printStackTrace()
             }
         }
 
         // --- DYNAMIC DEMO HEURISTIC ALGORITHM ---
-        // Lowered thresholds to ensure the UI graph shows VARIATION during testing!
         val speedKPM = features[4]
         val backspaceRate = features[5]
-        val gyroStd = features[8]
 
         var stressScore = 0
-
-        // 1. Error rate (Very sensitive!)
-        if (backspaceRate > 0.08f) stressScore += 3 // Automatic high
+        if (backspaceRate > 0.08f) stressScore += 2
         else if (backspaceRate > 0.04f) stressScore += 1
 
-        // 2. Physical tremor (Detect even subtle shakes)
-        if (gyroStd > 1.2f) stressScore += 2
-        else if (gyroStd > 0.4f) stressScore += 1
-
-        // 3. Typing speed variation
         if (speedKPM > 140f || (speedKPM < 40f && speedKPM > 5f)) stressScore += 1
 
-        return when {
-            stressScore >= 3 -> StressLevel.HIGH_STRESS
-            stressScore >= 1 -> StressLevel.MILD_STRESS
-            else -> StressLevel.CALM
-        }
-    }
-
-    private fun loadModelFile(): MappedByteBuffer {
-        val assetFileDescriptor = context.assets.openFd("mindtype_model.tflite")
-        val inputStream = FileInputStream(assetFileDescriptor.fileDescriptor)
-        val fileChannel = inputStream.channel
-        val startOffset = assetFileDescriptor.startOffset
-        val declaredLength = assetFileDescriptor.declaredLength
-        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength)
+        return if (stressScore >= 2) StressLevel.STRESSED else StressLevel.CALM
     }
 
     fun close() {
-        interpreter?.close()
+        session?.close()
+        env?.close()
     }
 }

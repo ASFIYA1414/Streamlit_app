@@ -85,6 +85,8 @@ class FeatureExtractor {
 
         val gyroStd = stdDev(gyroReadings)
 
+        val combinedBehavior = (meanDwell * typingSpeed) / (backspaceRate + 1e-6f)
+
         return FeatureWindowEntity(
             windowStart = start,
             windowEnd = end,
@@ -96,7 +98,8 @@ class FeatureExtractor {
             backspaceRate = backspaceRate,
             pauseCount = pauseCount,
             meanPressure = meanPressure,
-            gyroStd = gyroStd
+            gyroStd = gyroStd,
+            combinedBehavior = combinedBehavior
         )
     }
 

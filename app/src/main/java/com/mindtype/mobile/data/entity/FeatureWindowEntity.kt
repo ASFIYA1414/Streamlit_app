@@ -31,6 +31,7 @@ data class FeatureWindowEntity(
     @ColumnInfo(name = "pause_count") val pauseCount: Int,
     @ColumnInfo(name = "mean_pressure") val meanPressure: Float,
     @ColumnInfo(name = "gyro_std") val gyroStd: Float,
+    @ColumnInfo(name = "combined_behavior") val combinedBehavior: Float = 0f,
 
     // ML output
     @ColumnInfo(name = "predicted_class") val predictedClass: String = "",
@@ -41,6 +42,6 @@ data class FeatureWindowEntity(
     fun toFeatureArray(): FloatArray = floatArrayOf(
         meanDwell, stdDwell, meanFlight, stdFlight,
         typingSpeed, backspaceRate, pauseCount.toFloat(),
-        meanPressure, gyroStd
+        meanPressure, combinedBehavior
     )
 }

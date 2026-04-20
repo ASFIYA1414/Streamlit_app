@@ -62,9 +62,8 @@ dependencies {
     // WorkManager
     implementation 'androidx.work:work-runtime-ktx:2.9.0'
 
-    // TensorFlow Lite
-    implementation 'org.tensorflow:tensorflow-lite:2.14.0'
-    implementation 'org.tensorflow:tensorflow-lite-support:0.4.4'
+    // ONNX Runtime for ML Inference
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:latest.release'
 
     // MPAndroidChart for stress trend graph
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'

@@ -19,6 +19,12 @@
     <color name="glass_white">#1AFFFFFF</color>
     <color name="divider_dark">#2D2D30</color>
     
+    <!-- Keyboard Keys -->
+    <color name="key_bg_normal">#38383A</color>
+    <color name="key_bg_pressed">#242426</color>
+    <color name="key_shadow">#111112</color>
+    <color name="key_text">#FFFFFF</color>
+    
     <!-- Fallbacks for existing styles -->
     <color name="colorPrimary">@color/primary_accent</color>
     <color name="colorPrimaryDark">@color/primary_deep</color>

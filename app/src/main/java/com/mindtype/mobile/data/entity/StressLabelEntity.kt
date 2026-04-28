@@ -25,10 +25,15 @@ data class StressLabelEntity(
     @ColumnInfo(name = "mapped_class") val mappedClass: String
 ) {
     companion object {
+        /**
+         * Maps a raw self-report score (1–5) to a class label.
+         * Labels are UPPERCASE to match StressLevel.name used in predicted_class
+         * (CALM, MILD_STRESS, HIGH_STRESS) — ensures CSV column consistency.
+         */
         fun mapScoreToClass(score: Int): String = when (score) {
-            1, 2 -> "Calm"
-            3 -> "Mild_Stress"
-            else -> "High_Stress"
+            1, 2 -> "CALM"
+            3    -> "MILD_STRESS"
+            else -> "HIGH_STRESS"
         }
     }
 }

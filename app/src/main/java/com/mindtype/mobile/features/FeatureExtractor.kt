@@ -20,7 +20,8 @@ import kotlin.math.sqrt
  */
 class FeatureExtractor {
 
-    private val WINDOW_DURATION_MS = 15_000L // 15 seconds (reduced for fast UI demonstration)
+    private val WINDOW_DURATION_MS = 60_000L // 60 seconds per PRD spec (FR-3.9, FR-6.3)
+    // For rapid UI demo/testing, temporarily change to 15_000L
     private val PAUSE_THRESHOLD_MS = 2_000f
 
     private val events = mutableListOf<KeystrokeEventEntity>()

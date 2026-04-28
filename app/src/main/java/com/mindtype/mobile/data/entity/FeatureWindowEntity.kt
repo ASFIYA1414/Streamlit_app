@@ -37,7 +37,7 @@ data class FeatureWindowEntity(
     // Self-reported class (nullable — may not exist for every window)
     @ColumnInfo(name = "stress_label") val stressLabel: String? = null
 ) {
-    /** Returns the 9 features in the exact order the TFLite model expects */
+    /** Returns the 9 features in the exact order the ONNX model expects */
     fun toFeatureArray(): FloatArray = floatArrayOf(
         meanDwell, stdDwell, meanFlight, stdFlight,
         typingSpeed, backspaceRate, pauseCount.toFloat(),

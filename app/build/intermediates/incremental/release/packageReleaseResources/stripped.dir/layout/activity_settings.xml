@@ -39,7 +39,7 @@
         android:layout_marginTop="8dp"
         android:textSize="12sp"
         android:textColor="@color/textSecondary"
-        android:text="Exports mindtype_mobile_dataset.csv to your Downloads folder" />
+        android:text="Tap to save your dataset. A &quot;Save File&quot; dialog will appear — choose Downloads and tap Save." />
 
     <View android:layout_width="match_parent" android:layout_height="1dp"
         android:background="@color/divider" android:layout_marginVertical="20dp" />

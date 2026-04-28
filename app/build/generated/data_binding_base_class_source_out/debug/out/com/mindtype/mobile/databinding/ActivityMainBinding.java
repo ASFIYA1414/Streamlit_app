@@ -41,16 +41,23 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvKeystrokeCount;
 
   @NonNull
+  public final TextView tvModelStatus;
+
+  @NonNull
   public final TextView tvSessionDuration;
 
   @NonNull
   public final TextView tvUserId;
 
+  @NonNull
+  public final TextView xAxisLabel;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout appBar,
       @NonNull ImageButton btnSettings, @NonNull LineChart stressChart,
       @NonNull TextView tvAvgStress, @NonNull TextView tvCurrentStress,
-      @NonNull TextView tvKeystrokeCount, @NonNull TextView tvSessionDuration,
-      @NonNull TextView tvUserId) {
+      @NonNull TextView tvKeystrokeCount, @NonNull TextView tvModelStatus,
+      @NonNull TextView tvSessionDuration, @NonNull TextView tvUserId,
+      @NonNull TextView xAxisLabel) {
     this.rootView = rootView;
     this.appBar = appBar;
     this.btnSettings = btnSettings;
@@ -58,8 +65,10 @@ public final class ActivityMainBinding implements ViewBinding {
     this.tvAvgStress = tvAvgStress;
     this.tvCurrentStress = tvCurrentStress;
     this.tvKeystrokeCount = tvKeystrokeCount;
+    this.tvModelStatus = tvModelStatus;
     this.tvSessionDuration = tvSessionDuration;
     this.tvUserId = tvUserId;
+    this.xAxisLabel = xAxisLabel;
   }
 
   @Override
@@ -125,6 +134,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvModelStatus;
+      TextView tvModelStatus = ViewBindings.findChildViewById(rootView, id);
+      if (tvModelStatus == null) {
+        break missingId;
+      }
+
       id = R.id.tvSessionDuration;
       TextView tvSessionDuration = ViewBindings.findChildViewById(rootView, id);
       if (tvSessionDuration == null) {
@@ -137,8 +152,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.xAxisLabel;
+      TextView xAxisLabel = ViewBindings.findChildViewById(rootView, id);
+      if (xAxisLabel == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((ConstraintLayout) rootView, appBar, btnSettings, stressChart,
-          tvAvgStress, tvCurrentStress, tvKeystrokeCount, tvSessionDuration, tvUserId);
+          tvAvgStress, tvCurrentStress, tvKeystrokeCount, tvModelStatus, tvSessionDuration,
+          tvUserId, xAxisLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

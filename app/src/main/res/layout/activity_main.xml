@@ -93,6 +93,16 @@
                         android:textSize="14sp"
                         android:textColor="@color/text_medium_emphasis" />
 
+                    <TextView
+                        android:id="@+id/tvModelStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="🟡 Heuristic Mode"
+                        android:textSize="11sp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/stress_mild" />
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -184,7 +194,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Score"
+                        android:text="% Calm"
                         android:textSize="11sp"
                         android:textColor="@color/text_medium_emphasis" />
                 </LinearLayout>
@@ -214,11 +224,28 @@
                         android:fontFamily="sans-serif-medium"
                         android:textColor="@color/text_high_emphasis" />
 
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:id="@+id/stressChart"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:layout_marginTop="16dp" />
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/stressChart"
+                            android:layout_width="match_parent"
+                            android:layout_height="240dp" />
+
+                        <TextView
+                            android:id="@+id/xAxisLabel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Timeline"
+                            android:gravity="center"
+                            android:textSize="11sp"
+                            android:textColor="@color/text_medium_emphasis"
+                            android:layout_marginTop="4dp" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

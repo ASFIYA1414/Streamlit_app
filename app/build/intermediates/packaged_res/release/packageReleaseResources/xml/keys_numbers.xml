@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
-    android:horizontalGap="2px"
-    android:verticalGap="2px"
-    android:keyHeight="56dp">
+    android:keyWidth="9.6%p"
+    android:horizontalGap="0.4%p"
+    android:verticalGap="6px"
+    android:keyHeight="52dp">
 
     <!-- Row 1: 1 2 3 4 5 6 7 8 9 0 -->
     <Row>
@@ -33,30 +33,32 @@
         <Key android:codes="47"  android:keyLabel="/" android:keyEdgeFlags="right" />
     </Row>
 
-    <!-- Row 3: =\< (→ Symbols) | . , ? ! ' ⌫ -->
+    <!-- Row 3: =\< (→ Symbols) | * " ' : ; ! ? ⌫ -->
     <Row>
         <Key android:codes="-11" android:keyLabel="=\\&lt;" android:keyEdgeFlags="left"
-             android:keyWidth="14%p" />
-        <Key android:codes="42"  android:keyLabel="*" android:keyWidth="9%p"/>
-        <Key android:codes="34"  android:keyLabel="&quot;" android:keyWidth="9%p"/>
-        <Key android:codes="39"  android:keyLabel="'" android:keyWidth="9%p"/>
-        <Key android:codes="58"  android:keyLabel=":" android:keyWidth="9%p"/>
-        <Key android:codes="59"  android:keyLabel=";" android:keyWidth="9%p"/>
-        <Key android:codes="33"  android:keyLabel="!" android:keyWidth="9%p"/>
-        <Key android:codes="63"  android:keyLabel="?" android:keyWidth="9%p"/>
+             android:keyWidth="13%p" />
+        <Key android:codes="42"  android:keyLabel="*" android:keyWidth="9.6%p"
+             android:horizontalGap="0.4%p" />
+        <Key android:codes="34"  android:keyLabel="&quot;" android:keyWidth="9.6%p"/>
+        <Key android:codes="39"  android:keyLabel="'" android:keyWidth="9.6%p"/>
+        <Key android:codes="58"  android:keyLabel=":" android:keyWidth="9.6%p"/>
+        <Key android:codes="59"  android:keyLabel=";" android:keyWidth="9.6%p"/>
+        <Key android:codes="33"  android:keyLabel="!" android:keyWidth="9.6%p"/>
+        <Key android:codes="63"  android:keyLabel="?" android:keyWidth="9.6%p"/>
         <Key android:codes="-5"  android:keyLabel="⌫" android:isRepeatable="true"
-             android:keyWidth="14%p" android:keyEdgeFlags="right" />
+             android:keyWidth="13%p" android:keyEdgeFlags="right" />
     </Row>
 
-    <!-- Row 4: ABC | Space | ↵ -->
+    <!-- Row 4: ABC | , | Space | . | 🔍 | ↵ -->
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-10" android:keyLabel="ABC" android:keyEdgeFlags="left"
-             android:keyWidth="20%p" />
+             android:keyWidth="15%p" />
         <Key android:codes="44"  android:keyLabel=","  android:keyWidth="10%p" />
-        <Key android:codes="32"  android:keyLabel="SPACE" android:keyWidth="40%p" />
+        <Key android:codes="32"  android:keyLabel="SPACE" android:keyWidth="35%p" />
         <Key android:codes="46"  android:keyLabel="."  android:keyWidth="10%p" />
+        <Key android:codes="-12" android:keyLabel="🔍" android:keyWidth="15%p" />
         <Key android:codes="-4"  android:keyLabel="↵"  android:keyEdgeFlags="right"
-             android:keyWidth="20%p" />
+             android:keyWidth="15%p" />
     </Row>
 
 </Keyboard>

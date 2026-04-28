@@ -1,0 +1,9 @@
+
+# Build outputs
+app/build/
+build/
+*.dex
+*.class
+*.so
+venv/
+mindtype_model.pkl

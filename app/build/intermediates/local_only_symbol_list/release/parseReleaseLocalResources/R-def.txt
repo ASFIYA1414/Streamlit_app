@@ -22,7 +22,16 @@ color text_high_emphasis
 color text_medium_emphasis
 color white
 drawable card_glass_bg
+drawable chart_gradient
 drawable ic_notification
+drawable key_bg_accent_normal
+drawable key_bg_accent_pressed
+drawable key_bg_normal
+drawable key_bg_pressed
+drawable key_bg_space_normal
+drawable key_bg_space_pressed
+drawable key_bg_special_normal
+drawable key_bg_special_pressed
 id app_bar
 id btnBack
 id btnExportData

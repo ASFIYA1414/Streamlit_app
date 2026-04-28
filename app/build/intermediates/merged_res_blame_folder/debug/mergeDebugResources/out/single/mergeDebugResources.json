@@ -1,15 +1,11 @@
 [
     {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_keys_numbers.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/keys_numbers.xml"
-    },
-    {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/mipmap_ic_launcher.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/mipmap/ic_launcher.xml"
-    },
-    {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_file_provider_paths.xml.flat",
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_keys_numbers.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/keys_numbers.xml"
     },
     {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/layout_keyboard_view.xml.flat",
@@ -20,12 +16,8 @@
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/ic_notification.xml"
     },
     {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_card_glass_bg.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/card_glass_bg.xml"
-    },
-    {
-        "merged": "com.mindtype.mobile.app-debug-45:/xml_keys_symbols.xml.flat",
-        "source": "com.mindtype.mobile.app-main-47:/xml/keys_symbols.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_accent_pressed.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_accent_pressed.xml"
     },
     {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -36,10 +28,6 @@
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/mindtype_ime.xml"
     },
     {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_keys_layout.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/keys_layout.xml"
-    },
-    {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_keys_symbols.xml.flat",
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/keys_symbols.xml"
     },
@@ -48,23 +36,67 @@
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "com.mindtype.mobile.app-debug-45:/xml_keys_layout.xml.flat",
-        "source": "com.mindtype.mobile.app-main-47:/xml/keys_layout.xml"
+        "merged": "com.mindtype.mobile.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "com.mindtype.mobile.app-main-47:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/layout_activity_main.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/layout/activity_main.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_pressed.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_pressed.xml"
     },
     {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/mipmap_ic_launcher_round.xml.flat",
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/mipmap/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/layout_activity_settings.xml.flat",
-        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/layout/activity_settings.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_special_normal.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_special_normal.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_special_pressed.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_special_pressed.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_space_normal.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_space_normal.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_accent_normal.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_accent_normal.xml"
     },
     {
         "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/mipmap_ic_launcher.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_card_glass_bg.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/card_glass_bg.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_chart_gradient.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/chart_gradient.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/xml_keys_layout.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/xml/keys_layout.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_normal.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/drawable_key_bg_space_pressed.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/drawable/key_bg_space_pressed.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-debug-45:/layout_activity_settings.xml.flat",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-47:/layout/activity_settings.xml"
     }
 ]

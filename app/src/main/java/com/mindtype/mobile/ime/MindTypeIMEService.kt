@@ -44,6 +44,7 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
         const val CODE_SWITCH_ALPHA    = -10
         const val CODE_SWITCH_SYMBOLS  = -11
         const val CODE_SHIFT           = -1
+        const val CODE_SEARCH          = -12
     }
 
     private lateinit var keyboardView: KeyboardView
@@ -78,7 +79,8 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
         userId = prefs.getString("user_id", "U00") ?: "U00"
         sessionId = prefs.getString("current_session_id", "") ?: ""
 
-        Log.d(TAG, "onCreate: IME service started, userId=$userId")
+        Log.d(TAG, "onCreate: IME started | userId=$userId | " +
+            "ONNX model active=${stressClassifier.isModelLoaded}")
         createNotificationChannel()
         if (Build.VERSION.SDK_INT >= 34) {
             startForeground(
@@ -115,6 +117,10 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
 
     override fun onStartInput(attribute: EditorInfo?, restarting: Boolean) {
         super.onStartInput(attribute, restarting)
+        // Re-read sessionId every time so it stays current if the user restarts a session
+        val prefs = getSharedPreferences("mindtype_prefs", Context.MODE_PRIVATE)
+        userId    = prefs.getString("user_id", "U00") ?: "U00"
+        sessionId = prefs.getString("current_session_id", "") ?: ""
         featureExtractor.resetWindow()
         lastEventTime = 0L
         // Return to alpha on new input field
@@ -147,6 +153,12 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
                 Log.d(TAG, "Shift toggled: isShifted=$isShifted")
                 keyboardView.keyboard?.isShifted = isShifted
                 keyboardView.invalidateAllKeys()
+                return
+            }
+            CODE_SEARCH -> {
+                Log.d(TAG, "→ Search button pressed")
+                val ic = currentInputConnection ?: return
+                ic.performEditorAction(EditorInfo.IME_ACTION_SEARCH)
                 return
             }
         }
@@ -243,9 +255,8 @@ class MindTypeIMEService : InputMethodService(), KeyboardView.OnKeyboardActionLi
 
     private fun buildNotification(level: StressLevel): Notification {
         val (emoji, label) = when (level) {
-            StressLevel.CALM       -> Pair("🟢", "Calm")
-            StressLevel.MILD_STRESS -> Pair("🟡", "Mild Stress")
-            StressLevel.HIGH_STRESS -> Pair("🔴", "High Stress")
+            StressLevel.CALM     -> Pair("🟢", "Calm")
+            StressLevel.STRESSED -> Pair("🔴", "Stressed")
         }
         val intent = Intent(this, MainActivity::class.java)
         val pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE)

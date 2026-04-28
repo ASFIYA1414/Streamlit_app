@@ -3002,6 +3002,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable card_glass_bg
+drawable chart_gradient
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3026,6 +3027,14 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notification
 drawable ic_search_black_24
+drawable key_bg_accent_normal
+drawable key_bg_accent_pressed
+drawable key_bg_normal
+drawable key_bg_pressed
+drawable key_bg_space_normal
+drawable key_bg_space_pressed
+drawable key_bg_special_normal
+drawable key_bg_special_pressed
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle

@@ -1,15 +1,19 @@
 [
     {
-        "merged": "com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_main.xml",
-        "source": "com.mindtype.mobile.app-main-46:/layout/activity_main.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_settings.xml",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-46:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_onboarding.xml",
-        "source": "com.mindtype.mobile.app-main-46:/layout/activity_onboarding.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_onboarding.xml",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-46:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "com.mindtype.mobile.app-mergeReleaseResources-44:/layout/keyboard_view.xml",
-        "source": "com.mindtype.mobile.app-main-46:/layout/keyboard_view.xml"
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_main.xml",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-mergeReleaseResources-44:/layout/keyboard_view.xml",
+        "source": "/Users/meghanaepari/.gradle/daemon/8.13/com.mindtype.mobile.app-main-46:/layout/keyboard_view.xml"
     },
     {
         "merged": "com.mindtype.mobile.app-mergeReleaseResources-44:/layout/activity_settings.xml",

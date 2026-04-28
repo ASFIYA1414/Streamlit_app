@@ -6,4 +6,8 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:keyPreviewLayout="@null"
-    android:background="@color/keyboard_background" />
+    android:background="#1C1C1E"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp" />

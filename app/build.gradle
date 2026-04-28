@@ -12,15 +12,25 @@ android {
         applicationId "com.mindtype.mobile"
         minSdk 26
         targetSdk 34
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("/Users/meghanaepari/mindtypemobile.jks")
+            storePassword project.findProperty("KEYSTORE_PASS") ?: ""
+            keyAlias project.findProperty("KEY_ALIAS") ?: ""
+            keyPassword project.findProperty("KEY_PASS") ?: ""
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 
@@ -37,8 +47,15 @@ android {
         viewBinding true
     }
 
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+
     aaptOptions {
         noCompress "tflite"
+        noCompress "onnx"
     }
 }
 
@@ -62,9 +79,12 @@ dependencies {
     // WorkManager
     implementation 'androidx.work:work-runtime-ktx:2.9.0'
 
-    // TensorFlow Lite
-    implementation 'org.tensorflow:tensorflow-lite:2.14.0'
-    implementation 'org.tensorflow:tensorflow-lite-support:0.4.4'
+    // TensorFlow Lite — kept as fallback (may be removed once ONNX model is validated)
+    // implementation 'org.tensorflow:tensorflow-lite:2.14.0'
+    // implementation 'org.tensorflow:tensorflow-lite-support:0.4.4'
+
+    // ONNX Runtime for Android — runs XGBoost, LightGBM, sklearn models natively
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.17.3'
 
     // MPAndroidChart for stress trend graph
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
